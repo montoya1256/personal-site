@@ -8,6 +8,7 @@
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
+  --fs-devicon: 4rem;
   --fs-body: 1rem;
 
   --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
@@ -19,6 +20,7 @@
     --fs-h1: 4.5rem;
     --fs-h2: 3.75rem;
     --fs-h3: 1.5rem;
+    --fs-devicon: 5.25rem;
     --fs-body: 1.125rem;
   }
 }
@@ -112,6 +114,7 @@ header {
 }
 
 .logo {
+  cursor: pointer;
   max-width: 100px;
 }
 
@@ -277,28 +280,27 @@ header {
   opacity: 0.25;
 }
 
-.services {
-  margin-bottom: 4em;
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto auto;
 }
 
-.service {
-  max-width: 500px;
-  margin: 0 auto;
+.skill {
+  margin: 0 15px 30px 15px;
 }
 
-@media (min-width: 800px) {
-  .services {
-    display: flex;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .service + .service {
-    margin-left: 2em;
-  }
+.skill h3 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
+.skill i {
+  font-size:  var(--fs-devicon)
+}
 
 .about-me {
   max-width: 1000px;
@@ -371,6 +373,14 @@ header {
 .portfolio__img {
   transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
   opacity 250ms linear ;
+}
+
+.portfolio__item h3 {
+  margin-bottom: 10px;
+}
+
+.portfolio__item:hover h3 {
+  text-decoration: underline;
 }
 
 .portfolio__item:focus {

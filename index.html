@@ -26,9 +26,10 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
         <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Connect With Me</a></li>
       </ul>
     </nav>
   </header>
@@ -40,24 +41,9 @@
     <img src="img/straightsuit.jpg" alt="A picture of Heriberto Montoya" class="intro__img">
   </section>
 
-  <section class="my-services" if="services">
+  <section class="my-services" id="skills">
     <h2 class="section__title section__title--services">Skills</h2>
-    <div class="services">
-      <div class="skill">
-        <i class="devicon-css3-plain colored"></i>
-      </div>
-      <i class="devicon-javascript-plain colored"></i>
-      <i class="devicon-python-plain colored"></i>
-      <i class="devicon-react-original colored"></i>
-      <i class="devicon-redux-original colored"></i>
-      <i class="devicon-sqlalchemy-original-wordmark"></i>
-      <i class="devicon-flask-original"></i>
-      <i class="devicon-express-original colored"></i>
-      <i class="devicon-html5-plain colored"></i>
-      <i class="devicon-amazonwebservices-original colored"></i>
-      <i class="devicon-git-plain colored"></i>
-      <i class="devicon-postgresql-plain colored"></i>
-      <i class="devicon-sequelize-plain colored"></i>
+    <div class="skills">
     </div>
     <a href="#work" class="btn">My Projects</a>
   </section>
@@ -72,7 +58,7 @@
         code in JavaScript. </p>
       <p>Recently, over the past couple of months I have been attending App Academy in order to increase my skills in
         JavaScript, React, and Python. Since then I have also learned how to use Express and Flask for the backend of
-        programs as well as learned how to implement my own custom database using postres</p>
+        programs as well as learned how to implement my own custom database using postgres</p>
     </div>
     <img src="img/heribertoM.PNG" alt="" class="about-me__img">
   </section>
@@ -82,23 +68,35 @@
     <p class="section__subtitle--work"></p>
 
     <div class="porfolio">
-      <a href="portfolio-item.html" class="portfolio__item">
-        <img src="img/Musical-Affairs-landing.png" alt="" class="porfolio__img">
-      </a>
-      <a href="#" class="portfolio__item">
-        <img src="img/Member-Berries-landing.png" alt="" class="porfolio__img">
-      </a>
-      <a href="#" class="portfolio__item">
-        <img src="img/skrrt-landing.png" alt="" class="porfolio__img">
-      </a>
-      <a href="#" class="portfolio__item">
-        <img src="img/queue-flood-landing.png" alt="" class="porfolio__img">
-      </a>
+      <div class="portfolio__item">
+        <h3>Musical Affairs</h3>
+        <a href="musical-affairs.html">
+          <img src="img/Musical-Affairs-landing.png" alt="" class="porfolio__img">
+        </a>
+      </div>
+      <div class="portfolio__item">
+        <h3>Member Berries</h3>
+        <a href="member-berries.html">
+          <img src="img/Member-Berries-landing.png" alt="" class="porfolio__img">
+        </a>
+      </div>
+      <div class="portfolio__item">
+        <h3>Skrrt</h3>
+        <a href="#">
+          <img src="img/skrrt-landing.png" alt="" class="porfolio__img">
+        </a>
+      </div>
+      <div class="portfolio__item">
+        <h3>Queue Flood</h3>
+        <a href="#">
+          <img src="img/queue-flood-landing.png" alt="" class="porfolio__img">
+        </a>
+      </div>
     </div>
   </section>
 
-  <footer class="footer">
-    <a href="mailto:hmontoya3821@gmail.com" class="footer-link">hmontoya3821@gmail.com</a>
+  <footer class="footer" id="contact">
+    <h4>Contact Me at: </h4><a href="mailto:hmontoya3821@gmail.com" class="footer-link">hmontoya3821@gmail.com</a>
     <ul class="social-list">
       <li class="social-list__item"><a class="social-list__link" href="https://github.com/montoya1256"><i
             class="fab fa-github"></i></a></li>
@@ -107,7 +105,7 @@
     </ul>
   </footer>
 
-  <script src="js/index.js"></script>
+  <script src="js/index.js" type="module"></script>
 </body>
 
 </html>

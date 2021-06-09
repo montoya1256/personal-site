@@ -1,54 +1,54 @@
 export const skills = [
   {
-    devicon: '<i class="devicon-css3-plain colored"></i>',
+    devicon: "devicon-css3-plain colored",
     skillName: "CSS3",
   },
   {
-    devicon: '<i class="devicon-javascript-plain colored"></i>',
+    devicon: "devicon-javascript-plain colored",
     skillName: "JavaScript",
   },
   {
-    devicon: '<i class="devicon-python-plain colored"></i>',
+    devicon: "devicon-python-plain colored",
     skillName: "python",
   },
   {
-    devicon: '<i class="devicon-react-original colored"></i>',
+    devicon: "devicon-react-original colored",
     skillName: "react",
   },
   {
-    devicon: '<i class="devicon-redux-original colored"></i>',
+    devicon: "devicon-redux-original colored",
     skillName: "redux",
   },
   {
-    devicon: '<i class="devicon-sqlalchemy-original-wordmark"></i>',
+    devicon: "devicon-sqlalchemy-original-wordmark",
     skillName: "sqlalchemy",
   },
   {
-    devicon: '<i class="devicon-flask-original"></i>',
+    devicon: "devicon-flask-original",
     skillName: "flask",
   },
   {
-    devicon: '<i class="devicon-express-original colored"></i>',
+    devicon: "devicon-express-original colored",
     skillName: "express",
   },
   {
-    devicon: '<i class="devicon-html5-plain colored"></i>',
+    devicon: "devicon-html5-plain colored",
     skillName: "html5",
   },
   {
-    devicon: '<i class="devicon-amazonwebservices-original colored"></i>',
-    skillName: "amazonwebservices",
+    devicon: "devicon-amazonwebservices-original colored",
+    skillName: "amazon web services",
   },
   {
-    devicon: '<i class="devicon-git-plain colored"></i>',
+    devicon: "devicon-git-plain colored",
     skillName: "git",
   },
   {
-    devicon: '<i class="devicon-postgresql-plain colored"></i>',
+    devicon: "devicon-postgresql-plain colored",
     skillName: "postgresql",
   },
   {
-    devicon: '<i class="devicon-sequelize-plain colored"></i>',
+    devicon: "devicon-sequelize-plain colored",
     skillName: "sequelize",
   },
 ];
