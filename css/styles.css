@@ -265,6 +265,10 @@ header {
   text-align: center;
 }
 
+.smaller_img {
+  margin: auto;
+}
+
 .section__title--services {
   color: #16e0bd;
   position: relative;
