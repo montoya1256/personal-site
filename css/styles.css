@@ -226,6 +226,12 @@ header {
   box-shadow: var(--bs);
 }
 
+a.intro__live_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 600px) {
   .intro {
     display: grid;
